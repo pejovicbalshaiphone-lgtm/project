@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "id": "chattrigger",
+  "version": "${version}",
+  "name": "Chat Trigger Client",
+  "description": "Client-side timed public chat messages and configurable chat-triggered private replies.",
+  "authors": [
+    "ChatGPT"
+  ],
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "com.example.chattrigger.ChatTriggerClient"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=0.18.1",
+    "minecraft": "~1.21.11",
+    "java": ">=21",
+    "fabric-api": "*",
+    "fabric-key-binding-api-v1": "*"
+  }
+}
